@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jira-document-loader" # IMPORTANT: Must be a unique name on PyPI
+version = "0.1.0"
+authors = [
+  { name="Vinitha Nagarajan", email="vinitha2595@gmail.com" },
+]
+description = "A custom LangChain document loader for Jira."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "langchain-core>=0.1.0",
+    "jira>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-username/my_jira_loader_project"
+Issues = "https://github.com/your-username/my_jira_loader_project/issues"
