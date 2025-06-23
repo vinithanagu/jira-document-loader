@@ -25,5 +25,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-username/my_jira_loader_project"
-Issues = "https://github.com/your-username/my_jira_loader_project/issues"
+Homepage = "https://github.com/vinithanagu/jira-document-loader.git"
+Issues = "https://github.com/vinithanagu/jira-document-loader/issues"
